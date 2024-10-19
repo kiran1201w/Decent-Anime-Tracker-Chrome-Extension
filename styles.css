@@ -1,0 +1,139 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.anime-actions {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.anime-actions button {
+  flex: 1;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
+
+.notify-button {
+  background-color: #3498db;
+}
+
+.notify-button:hover {
+  background-color: #2980b9;
+}
+
+/* Adjust existing button styles if necessary */
+/* Existing styles remain unchanged */
+
+.anime-info small {
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.countdown {
+  font-weight: bold;
+  color: #ff4081;
+}
+
+
+.container {
+  padding: 15px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+}
+
+#searchInput::placeholder {
+  color: #888;
+}
+
+#searchResults, #watchlist {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.anime-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.anime-item img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.anime-item .anime-info {
+  flex-grow: 1;
+}
+
+.anime-item .anime-info span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.anime-item button {
+  background-color: #ff4081;
+  border: none;
+  color: #fff;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.anime-item button:hover {
+  background-color: #e03570;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff4081;
+  border-radius: 4px;
+}
