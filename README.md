@@ -1,6 +1,5 @@
-# 🌸 Anime Tracker 🎌
 
-![Anime Tracker Icon](./icons/icon128.png)
+# 🌸 Anime Tracker 🎌
 
 **Anime Tracker** is a Chrome extension that helps you track your favorite anime shows and get notified when new episodes are released. The extension uses the AniList API to provide you with updates on upcoming and newly aired episodes.
 
@@ -18,9 +17,11 @@ You can download and install the Anime Tracker extension directly from the Chrom
 
 👉 [Anime Tracker - Chrome Web Store](https://chromewebstore.google.com/detail/anime-tracker/kefcojndgljjhabdepchmmbnikjjagpf?authuser=1&hl=en)
 
-## 📸 Screenshots
+## 🎥 Demo Video
 
-![Anime Tracker Popup](./icons/icon128.png)
+Check out the demo video for Anime Tracker on YouTube:
+
+[Watch the video](https://www.youtube.com/watch?v=6B5d7TZeSJQ)
 
 ## 🛠️ Installation
 
